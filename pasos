@@ -1,5 +1,9 @@
 1. npm install prisma --save-dev
 2. npm install @prisma/client
 3. npx prisma init
-4. npx prisma migrate dev --name init
-5. npx prisma generate
+4. Congigurar archivo .env
+   DATABASE_URL="postgresql://usuario:contraseña@localhost:5432/mi_base_de_datos?schema=public"
+5. Crear el modelo (La tabla)
+6. npx prisma migrate dev --name init
+7. npx prisma generate
+8. npx prisma migrate
